@@ -1,0 +1,23 @@
+RUN	acetoys.AcetoySimulation	acetoysimulation	1683425049427	 	3.9.3
+USER	AcetoySimulation	START	1683425051198
+REQUEST		Load Home page	1683425051197	1683425051832	OK	 
+REQUEST		Load our story page	1683425053923	1683425054143	OK	 
+REQUEST		Load Get in touch page	1683425056158	1683425056376	OK	 
+REQUEST		Load products list page - Category: All Products	1683425058395	1683425058825	OK	 
+REQUEST		Load page 1 of products - Category : All Products	1683425060860	1683425061261	OK	 
+REQUEST		Load page 2 of products - Category : All Products	1683425061289	1683425061503	OK	 
+REQUEST		Load products details page - Product : Poker Set	1683425063517	1683425063796	OK	 
+REQUEST		Add product to the cart - Product ID:Poker Set	1683425065805	1683425066024	OK	 
+REQUEST		Load products list page - Category: Babies Toys	1683425068029	1683425068452	OK	 
+REQUEST		Add product to the cart - Product ID:Poker Set	1683425070462	1683425070692	OK	 
+REQUEST		Add product to the cart - Product ID:Poker Set	1683425072697	1683425072910	OK	 
+REQUEST		Login User	1683425074924	1683425075136	OK	 
+REQUEST		Login User Redirect 1	1683425075145	1683425075471	OK	 
+REQUEST		View Cart	1683425075478	1683425075778	OK	 
+REQUEST		Increase product Quantity : Product Name : Poker Set	1683425077788	1683425078008	OK	 
+REQUEST		Increase product Quantity : Product Name : Poker Set Redirect 1	1683425078009	1683425078337	OK	 
+REQUEST		Decrease product Quantity : Product Name : Poker Set	1683425080347	1683425080552	OK	 
+REQUEST		Decrease product Quantity : Product Name : Poker Set Redirect 1	1683425080554	1683425080755	OK	 
+REQUEST		Cart checkout	1683425082763	1683425082991	OK	 
+REQUEST		Cart checkout Redirect 1	1683425082992	1683425083229	OK	 
+USER	AcetoySimulation	END	1683425085244

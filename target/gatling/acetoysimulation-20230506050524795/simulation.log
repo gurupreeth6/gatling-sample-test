@@ -1,0 +1,25 @@
+RUN	acetoys.AcetoySimulation	acetoysimulation	1683349524795	 	3.9.3
+USER	AcetoySimulation	START	1683349526416
+REQUEST		Load Home page	1683349526415	1683349527546	OK	 
+REQUEST		Load our story page	1683349529629	1683349529921	OK	 
+REQUEST		Load Get in touch page	1683349531933	1683349532352	OK	 
+REQUEST		Load products list page - Category: All Products	1683349534370	1683349535103	OK	 
+REQUEST		Load page 1 of products - Category : All Products	1683349537131	1683349537884	OK	 
+REQUEST		Load page 2 of products - Category : All Products	1683349537900	1683349538197	OK	 
+REQUEST		Load products details page - Product : Rabbit Model	1683349540209	1683349540646	OK	 
+REQUEST		Add product to the cart - Product ID:Rabbit Model	1683349542657	1683349542958	OK	 
+REQUEST		Load products list page - Category: Babies Toys	1683349544964	1683349545766	OK	 
+REQUEST		Add product to the cart - Product ID:Rabbit Model	1683349547777	1683349548122	OK	 
+REQUEST		Add product to the cart - Product ID:Rabbit Model	1683349550126	1683349550476	OK	 
+REQUEST		Login User	1683349552487	1683349552828	OK	 
+REQUEST		Login User Redirect 1	1683349552833	1683349553243	OK	 
+REQUEST		View Cart	1683349553249	1683349553650	OK	 
+REQUEST		Increase product Quantity : Product Id : 19	1683349555658	1683349555959	OK	 
+REQUEST		Increase product Quantity : Product Id : 19 Redirect 1	1683349555960	1683349556314	OK	 
+REQUEST		Decrease product Quantity : Product Id : 19	1683349558321	1683349558616	OK	 
+REQUEST		Decrease product Quantity : Product Id : 19 Redirect 1	1683349558617	1683349558976	OK	 
+REQUEST		Login User	1683349560985	1683349561331	KO	status.find.in([200, 209], 304), found 405
+REQUEST		View Cart	1683349561338	1683349561633	OK	 
+REQUEST		Cart checkout	1683349563640	1683349563993	OK	 
+REQUEST		Cart checkout Redirect 1	1683349563994	1683349564405	OK	 
+USER	AcetoySimulation	END	1683349566418

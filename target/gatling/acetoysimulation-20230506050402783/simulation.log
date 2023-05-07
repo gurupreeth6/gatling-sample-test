@@ -1,0 +1,25 @@
+RUN	acetoys.AcetoySimulation	acetoysimulation	1683349442783	 	3.9.3
+USER	AcetoySimulation	START	1683349444434
+REQUEST		Load Home page	1683349444433	1683349445621	OK	 
+REQUEST		Load our story page	1683349447701	1683349448075	OK	 
+REQUEST		Load Get in touch page	1683349450086	1683349450381	OK	 
+REQUEST		Load products list page - Category: All Products	1683349452399	1683349453079	OK	 
+REQUEST		Load page 1 of products - Category : All Products	1683349455107	1683349455857	OK	 
+REQUEST		Load page 2 of products - Category : All Products	1683349455870	1683349456163	OK	 
+REQUEST		Load products details page - Product : Assorted Building Blocks	1683349458173	1683349458475	OK	 
+REQUEST		Add product to the cart - Product ID:Assorted Building Blocks	1683349460484	1683349460777	OK	 
+REQUEST		Load products list page - Category: Babies Toys	1683349462783	1683349463536	OK	 
+REQUEST		Add product to the cart - Product ID:Assorted Building Blocks	1683349465545	1683349465892	OK	 
+REQUEST		Add product to the cart - Product ID:Assorted Building Blocks	1683349467898	1683349468250	OK	 
+REQUEST		Login User	1683349470260	1683349470705	OK	 
+REQUEST		Login User Redirect 1	1683349470708	1683349471001	OK	 
+REQUEST		View Cart	1683349471005	1683349471302	OK	 
+REQUEST		Increase product Quantity : Product Id : 19	1683349473309	1683349473610	OK	 
+REQUEST		Increase product Quantity : Product Id : 19 Redirect 1	1683349473611	1683349473901	OK	 
+REQUEST		Decrease product Quantity : Product Id : 19	1683349475907	1683349476207	OK	 
+REQUEST		Decrease product Quantity : Product Id : 19 Redirect 1	1683349476209	1683349476502	OK	 
+REQUEST		Login User	1683349478510	1683349478812	KO	status.find.in([200, 209], 304), found 405
+REQUEST		View Cart	1683349478817	1683349479206	OK	 
+REQUEST		Cart checkout	1683349481215	1683349481559	OK	 
+REQUEST		Cart checkout Redirect 1	1683349481561	1683349481857	OK	 
+USER	AcetoySimulation	END	1683349483869

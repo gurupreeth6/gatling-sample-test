@@ -1,0 +1,26 @@
+RUN	acetoys.AcetoySimulation	acetoysimulation	1683305620312	 	3.9.3
+USER	AcetoySimulation	START	1683305621897
+REQUEST		Load Home page	1683305621897	1683305622801	OK	 
+REQUEST		Load our story page	1683305624886	1683305625244	OK	 
+REQUEST		Load Get in touch page	1683305627257	1683305627604	OK	 
+REQUEST		Load products list page - Category: All Products	1683305629625	1683305630249	OK	 
+REQUEST		Load Second page of products	1683305632273	1683305632909	OK	 
+REQUEST		Load next page of products - Page 2	1683305634923	1683305635235	OK	 
+REQUEST		Load products details page - Product : Dart Board	1683305637248	1683305637538	OK	 
+REQUEST		Add product to the cart - Product ID:19	1683305639544	1683305639873	KO	substring(You have <span>1</span>  products in your Basket.).find.exists, found nothing
+REQUEST		Load products list page - Category: Babies Toys	1683305641879	1683305642449	OK	 
+REQUEST		Add product to the cart - Product ID:4	1683305644456	1683305644738	OK	 
+REQUEST		Add product to the cart - Product ID:2	1683305646743	1683305647162	KO	substring(You have <span>3</span>  products in your Basket.).find.exists, found nothing
+REQUEST		View Cart	1683305649164	1683305649467	OK	 
+REQUEST		View Cart Redirect 1	1683305649473	1683305649771	OK	 
+REQUEST		Login User	1683305651784	1683305652058	OK	 
+REQUEST		Login User Redirect 1	1683305652059	1683305652333	OK	 
+REQUEST		Increase product Quantity : Product Id : 19	1683305654337	1683305654721	OK	 
+REQUEST		Increase product Quantity : Product Id : 19 Redirect 1	1683305654723	1683305655029	OK	 
+REQUEST		Decrease product Quantity : Product Id : 19	1683305657035	1683305657402	OK	 
+REQUEST		Decrease product Quantity : Product Id : 19 Redirect 1	1683305657404	1683305657813	OK	 
+REQUEST		Cart checkout	1683305659820	1683305660110	OK	 
+REQUEST		Cart checkout Redirect 1	1683305660110	1683305660442	OK	 
+REQUEST		Logout	1683305662448	1683305662834	OK	 
+REQUEST		Logout Redirect 1	1683305662834	1683305663239	OK	 
+USER	AcetoySimulation	END	1683305663245

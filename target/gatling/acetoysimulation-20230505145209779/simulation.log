@@ -1,0 +1,26 @@
+RUN	acetoys.AcetoySimulation	acetoysimulation	1683298329779	test	3.9.3
+USER	AcetoySimulation	START	1683298332165
+REQUEST		Load Home page	1683298332164	1683298333128	OK	 
+REQUEST		Load our story page	1683298335208	1683298335624	OK	 
+REQUEST		Load Get in touch page	1683298337637	1683298338013	OK	 
+REQUEST		Load products list page	1683298340020	1683298340638	OK	 
+REQUEST		Load Second page of products	1683298342658	1683298343231	OK	 
+REQUEST		Load next page of products - Page 2	1683298345246	1683298345627	OK	 
+REQUEST		Load products details page - Product : Dart Board	1683298347636	1683298347979	OK	 
+REQUEST		Add product to the cart - Product ID:19	1683298349990	1683298350289	KO	substring(You have <span>1</span>  products in your Basket.).find.exists, found nothing
+REQUEST		Load products list page - Category: Babies Toys	1683298352297	1683298352888	OK	 
+REQUEST		Add product to the cart - Product ID:4	1683298354898	1683298355241	KO	substring(You have <span>2</span>  products in your Basket.).find.exists, found nothing
+REQUEST		Add product to the cart - Product ID:2	1683298357245	1683298357530	KO	substring(You have <span>3</span>  products in your Basket.).find.exists, found nothing
+REQUEST		View Cart	1683298359533	1683298359970	OK	 
+REQUEST		View Cart Redirect 1	1683298359976	1683298360323	OK	 
+REQUEST		Login User	1683298362337	1683298362638	OK	 
+REQUEST		Login User Redirect 1	1683298362640	1683298362953	OK	 
+REQUEST		Increase product Quantity : Product Id : 19	1683298364961	1683298365276	OK	 
+REQUEST		Increase product Quantity : Product Id : 19 Redirect 1	1683298365277	1683298365583	OK	 
+REQUEST		Decrease product Quantity : Product Id : 19	1683298367590	1683298367875	OK	 
+REQUEST		Decrease product Quantity : Product Id : 19 Redirect 1	1683298367876	1683298368156	OK	 
+REQUEST		Cart checkout	1683298370164	1683298370453	OK	 
+REQUEST		Cart checkout Redirect 1	1683298370455	1683298370812	OK	 
+REQUEST		Logout	1683298372819	1683298373180	OK	 
+REQUEST		Logout Redirect 1	1683298373181	1683298373591	OK	 
+USER	AcetoySimulation	END	1683298373600

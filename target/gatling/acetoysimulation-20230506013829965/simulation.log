@@ -1,0 +1,25 @@
+RUN	acetoys.AcetoySimulation	acetoysimulation	1683337109965	 	3.9.3
+USER	AcetoySimulation	START	1683337111560
+REQUEST		Load Home page	1683337111559	1683337112623	OK	 
+REQUEST		Load our story page	1683337114703	1683337115068	OK	 
+REQUEST		Load Get in touch page	1683337117079	1683337117424	OK	 
+REQUEST		Load products list page - Category: All Products	1683337119441	1683337120120	OK	 
+REQUEST		Load Second page of products	1683337122139	1683337122954	OK	 
+REQUEST		Load next page of products - Page 2	1683337124967	1683337125262	OK	 
+REQUEST		Load products details page - Product : Wooden Baby Worm	1683337127273	1683337127664	OK	 
+REQUEST		Add product to the cart - Product ID:Wooden Baby Worm	1683337129674	1683337129981	OK	 
+REQUEST		Load products list page - Category: Babies Toys	1683337131986	1683337132783	OK	 
+REQUEST		Add product to the cart - Product ID:Wooden Baby Worm	1683337134798	1683337135139	OK	 
+REQUEST		Add product to the cart - Product ID:Wooden Baby Worm	1683337137143	1683337137516	OK	 
+REQUEST		Login User	1683337139525	1683337139825	OK	 
+REQUEST		Login User Redirect 1	1683337139831	1683337140126	OK	 
+REQUEST		View Cart	1683337140131	1683337140424	OK	 
+REQUEST		Increase product Quantity : Product Id : 19	1683337142433	1683337142819	OK	 
+REQUEST		Increase product Quantity : Product Id : 19 Redirect 1	1683337142820	1683337143229	OK	 
+REQUEST		Decrease product Quantity : Product Id : 19	1683337145236	1683337145584	OK	 
+REQUEST		Decrease product Quantity : Product Id : 19 Redirect 1	1683337145585	1683337145993	OK	 
+REQUEST		Login User	1683337147998	1683337148294	KO	status.find.in([200, 209], 304), found 405
+REQUEST		View Cart	1683337148299	1683337148656	OK	 
+REQUEST		Cart checkout	1683337150664	1683337150955	OK	 
+REQUEST		Cart checkout Redirect 1	1683337150957	1683337151322	OK	 
+USER	AcetoySimulation	END	1683337153336

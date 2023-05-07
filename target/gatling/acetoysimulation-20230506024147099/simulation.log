@@ -1,0 +1,23 @@
+RUN	acetoys.AcetoySimulation	acetoysimulation	1683340907099	 	3.9.3
+USER	AcetoySimulation	START	1683340908838
+REQUEST		Load Home page	1683340908837	1683340909795	OK	 
+REQUEST		Load our story page	1683340911869	1683340912179	OK	 
+REQUEST		Load Get in touch page	1683340914189	1683340914598	OK	 
+REQUEST		Load products list page - Category: Gown-ups Toys	1683340916616	1683340917712	KO	css((#CategoryName,None)).find.is(Gown-ups Toys), but actually found Grown-ups Toys
+REQUEST		Load products details page - Product : Scrabble Set	1683340921739	1683340922070	OK	 
+REQUEST		Add product to the cart - Product ID:Scrabble Set	1683340924083	1683340924428	OK	 
+REQUEST		Load products list page - Category: Kids Toys	1683340926433	1683340927296	OK	 
+REQUEST		Add product to the cart - Product ID:Scrabble Set	1683340929309	1683340929987	OK	 
+REQUEST		Add product to the cart - Product ID:Scrabble Set	1683340931992	1683340932284	OK	 
+REQUEST		Login User	1683340934297	1683340934689	OK	 
+REQUEST		Login User Redirect 1	1683340934696	1683340935152	OK	 
+REQUEST		View Cart	1683340935163	1683340935980	OK	 
+REQUEST		Increase product Quantity : Product Id : 19	1683340937989	1683340938355	OK	 
+REQUEST		Increase product Quantity : Product Id : 19 Redirect 1	1683340938356	1683340938764	OK	 
+REQUEST		Decrease product Quantity : Product Id : 19	1683340940770	1683340941120	OK	 
+REQUEST		Decrease product Quantity : Product Id : 19 Redirect 1	1683340941121	1683340941543	OK	 
+REQUEST		Login User	1683340943549	1683340943885	KO	status.find.in([200, 209], 304), found 405
+REQUEST		View Cart	1683340943887	1683340944373	OK	 
+REQUEST		Cart checkout	1683340946378	1683340946675	OK	 
+REQUEST		Cart checkout Redirect 1	1683340946677	1683340946963	OK	 
+USER	AcetoySimulation	END	1683340948970

@@ -1,0 +1,23 @@
+RUN	acetoys.AcetoySimulation	acetoysimulation	1683336952630	 	3.9.3
+USER	AcetoySimulation	START	1683336954696
+REQUEST		Load Home page	1683336954695	1683336955771	OK	 
+REQUEST		Load our story page	1683336957831	1683336958123	OK	 
+REQUEST		Load Get in touch page	1683336960136	1683336960480	OK	 
+REQUEST		Load products list page - Category: All Products	1683336962498	1683336963128	OK	 
+REQUEST		Load Second page of products	1683336965149	1683336965908	OK	 
+REQUEST		Load next page of products - Page 2	1683336967923	1683336968263	OK	 
+REQUEST		Load products details page - Product : Flat screen TV	1683336970273	1683336970576	OK	 
+REQUEST		Add product to the cart - Product ID:Flat screen TV	1683336972584	1683336972885	OK	 
+REQUEST		Load products list page - Category: Babies Toys	1683336974889	1683336975638	OK	 
+REQUEST		Add product to the cart - Product ID:Flat screen TV	1683336977648	1683336977989	OK	 
+REQUEST		Add product to the cart - Product ID:Flat screen TV	1683336979993	1683336980351	OK	 
+REQUEST		View Cart	1683336982356	1683336982707	OK	 
+REQUEST		View Cart Redirect 1	1683336982711	1683336983110	KO	css((#CategoryHeader,None)).find.is(Cart Overview), but actually found Login
+REQUEST		Increase product Quantity : Product Id : 19	1683336985117	1683336985408	OK	 
+REQUEST		Increase product Quantity : Product Id : 19 Redirect 1	1683336985409	1683336985772	OK	 
+REQUEST		Increase product Quantity : Product Id : 19 Redirect 2	1683336985773	1683336986182	OK	 
+REQUEST		Decrease product Quantity : Product Id : 19	1683336988185	1683336988485	OK	 
+REQUEST		Decrease product Quantity : Product Id : 19 Redirect 1	1683336988486	1683336988845	OK	 
+REQUEST		Cart checkout	1683336990849	1683336991201	OK	 
+REQUEST		Cart checkout Redirect 1	1683336991203	1683336991612	OK	 
+USER	AcetoySimulation	END	1683336993626

@@ -1,0 +1,24 @@
+RUN	acetoys.AcetoySimulation	acetoysimulation	1683424640525	 	3.9.3
+USER	AcetoySimulation	START	1683424642503
+REQUEST		Load Home page	1683424642502	1683424643094	OK	 
+REQUEST		Load our story page	1683424645182	1683424645370	OK	 
+REQUEST		Load Get in touch page	1683424647381	1683424647576	OK	 
+REQUEST		Load products list page - Category: All Products	1683424649595	1683424650011	OK	 
+REQUEST		Load page 1 of products - Category : All Products	1683424652045	1683424652453	OK	 
+REQUEST		Load page 2 of products - Category : All Products	1683424652475	1683424652682	OK	 
+REQUEST		Load products details page - Product : Flat screen TV	1683424654694	1683424654911	OK	 
+REQUEST		Add product to the cart - Product ID:Flat screen TV	1683424656924	1683424657131	OK	 
+REQUEST		Load products list page - Category: Babies Toys	1683424659138	1683424659553	OK	 
+REQUEST		Add product to the cart - Product ID:Flat screen TV	1683424661571	1683424661781	OK	 
+REQUEST		Add product to the cart - Product ID:Flat screen TV	1683424663787	1683424663991	OK	 
+REQUEST		Login User	1683424666003	1683424666214	OK	 
+REQUEST		Login User Redirect 1	1683424666221	1683424666427	OK	 
+REQUEST		View Cart	1683424666434	1683424666639	OK	 
+REQUEST		Increase product Quantity : Product Name : Flat screen TV	1683424668647	1683424668858	OK	 
+REQUEST		Increase product Quantity : Product Name : Flat screen TV Redirect 1	1683424668859	1683424669065	KO	css((#grandTotal,None)).find.is(3999.96), but actually found $3999.96
+REQUEST		Decrease product Quantity : Product Id : 19	1683424671074	1683424671300	KO	status.find.in([200, 209], 304), found 500
+REQUEST		Cart checkout	1683424673303	1683424674174	OK	 
+REQUEST		Cart checkout Redirect 1	1683424674175	1683424674507	OK	 
+REQUEST		Logout	1683424676517	1683424676846	OK	 
+REQUEST		Logout Redirect 1	1683424676846	1683424677154	OK	 
+USER	AcetoySimulation	END	1683424677166

@@ -1,0 +1,14 @@
+RUN	acetoys.AcetoySimulation	acetoysimulation	1683426967597	 	3.9.3
+USER	AcetoySimulation	START	1683426969735
+REQUEST		Load Home page	1683426969734	1683426970378	OK	 
+REQUEST		Load our story page	1683426973447	1683426973664	OK	 
+REQUEST		Load Get in touch page	1683426974975	1683426975193	OK	 
+REQUEST		Load products list page - Category: All Products	1683426976678	1683426977100	OK	 
+REQUEST		Load page 1 of products - Category : All Products	1683426978832	1683426979218	OK	 
+REQUEST		Load page 2 of products - Category : All Products	1683426979237	1683426979435	OK	 
+REQUEST		Load products details page - Product : Flat screen TV	1683426982311	1683426982666	OK	 
+REQUEST		Load products list page - Category: Babies Toys	1683426982669	1683426982887	OK	 
+REQUEST		Load products details page - Product : Scrabble Set	1683426985764	1683426985978	OK	 
+REQUEST		Load products list page - Category: Kids Toys	1683426985986	1683426986387	OK	 
+REQUEST		Load products details page - Product : Alphabet Letters	1683426988445	1683426988666	OK	 
+USER	AcetoySimulation	END	1683426988678

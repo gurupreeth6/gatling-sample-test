@@ -1,0 +1,24 @@
+RUN	acetoys.AcetoySimulation	acetoysimulation	1683335454200	 	3.9.3
+USER	AcetoySimulation	START	1683335456681
+REQUEST		Load Home page	1683335456680	1683335457553	OK	 
+REQUEST		Load our story page	1683335459649	1683335460077	OK	 
+REQUEST		Load Get in touch page	1683335462089	1683335462534	OK	 
+REQUEST		Load products list page - Category: All Products	1683335464553	1683335465178	OK	 
+REQUEST		Load Second page of products	1683335467200	1683335467816	OK	 
+REQUEST		Load next page of products - Page 2	1683335469834	1683335470133	OK	 
+REQUEST		Load products details page - Product : Playing Cards	1683335472147	1683335472482	OK	 
+REQUEST		Add product to the cart - Product ID:Playing Cards	1683335474493	1683335474926	OK	 
+REQUEST		Load products list page - Category: Babies Toys	1683335476931	1683335477537	OK	 
+REQUEST		Add product to the cart - Product ID:Playing Cards	1683335479548	1683335479942	KO	substring(You have <span>1</span> products in your Basket.).find.exists, found nothing
+REQUEST		Add product to the cart - Product ID:Playing Cards	1683335481950	1683335482281	KO	substring(You have <span>1</span> products in your Basket.).find.exists, found nothing
+REQUEST		View Cart	1683335484284	1683335484634	OK	 
+REQUEST		View Cart Redirect 1	1683335484641	1683335485045	OK	 
+REQUEST		Login User	1683335487058	1683335487417	OK	 
+REQUEST		Login User Redirect 1	1683335487419	1683335487837	OK	 
+REQUEST		Increase product Quantity : Product Id : 19	1683335489848	1683335490126	OK	 
+REQUEST		Increase product Quantity : Product Id : 19 Redirect 1	1683335490128	1683335490415	OK	 
+REQUEST		Decrease product Quantity : Product Id : 19	1683335492422	1683335492734	OK	 
+REQUEST		Decrease product Quantity : Product Id : 19 Redirect 1	1683335492735	1683335493016	OK	 
+REQUEST		Cart checkout	1683335495023	1683335495405	OK	 
+REQUEST		Cart checkout Redirect 1	1683335495407	1683335495816	OK	 
+USER	AcetoySimulation	END	1683335497829

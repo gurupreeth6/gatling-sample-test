@@ -1,0 +1,172 @@
+RUN	acetoys.AcetoySimulation	acetoysimulation	1683427509421	 	3.9.3
+USER	Default Load test	START	1683427511239
+USER	Default Load test	START	1683427511239
+USER	Default Load test	START	1683427511239
+USER	Default Load test	START	1683427511239
+USER	Default Load test	START	1683427511239
+USER	Default Load test	START	1683427511239
+USER	Default Load test	START	1683427511239
+USER	Default Load test	START	1683427511240
+USER	Default Load test	START	1683427511239
+USER	Default Load test	START	1683427511240
+REQUEST		Load Home page	1683427511237	1683427511823	OK	 
+REQUEST		Load Home page	1683427511237	1683427511832	OK	 
+REQUEST		Load Home page	1683427511237	1683427511823	OK	 
+REQUEST		Load Home page	1683427511238	1683427511849	OK	 
+REQUEST		Load Home page	1683427511237	1683427511864	OK	 
+REQUEST		Load Home page	1683427511237	1683427511823	OK	 
+REQUEST		Load Home page	1683427511238	1683427511847	OK	 
+REQUEST		Load Home page	1683427511237	1683427511823	OK	 
+REQUEST		Load Home page	1683427511237	1683427511832	OK	 
+REQUEST		Load Home page	1683427511237	1683427511849	OK	 
+REQUEST		Load our story page	1683427514939	1683427515131	OK	 
+REQUEST		Load our story page	1683427514940	1683427515137	OK	 
+REQUEST		Load our story page	1683427514936	1683427515133	OK	 
+REQUEST		Load our story page	1683427514937	1683427515133	OK	 
+REQUEST		Load our story page	1683427514941	1683427515147	OK	 
+REQUEST		Load products list page - Category: Kids Toys	1683427514942	1683427515143	OK	 
+REQUEST		Load our story page	1683427514938	1683427515147	OK	 
+REQUEST		Load products list page - Category: All Products	1683427514942	1683427515307	OK	 
+REQUEST		Load products list page - Category: Babies Toys	1683427514944	1683427515307	OK	 
+REQUEST		Load products list page - Category: Grown-ups Toys	1683427514942	1683427515326	OK	 
+REQUEST		Load Get in touch page	1683427516205	1683427516395	OK	 
+REQUEST		Load products details page - Product : Rabbit Model	1683427516237	1683427516427	OK	 
+REQUEST		Load Get in touch page	1683427516460	1683427516642	OK	 
+REQUEST		Load products details page - Product : Fake Donuts	1683427516689	1683427516870	OK	 
+REQUEST		Load products details page - Product : Flat screen TV	1683427516825	1683427517012	OK	 
+REQUEST		Load Get in touch page	1683427517025	1683427517212	OK	 
+REQUEST		Load Get in touch page	1683427517361	1683427517546	OK	 
+REQUEST		Load Get in touch page	1683427517389	1683427517573	OK	 
+REQUEST		Load products details page - Product : Playing Cards	1683427517932	1683427518113	OK	 
+REQUEST		Load Get in touch page	1683427518020	1683427518211	OK	 
+REQUEST		Load products list page - Category: All Products	1683427517862	1683427518232	OK	 
+REQUEST		Add product to the cart - Product ID:Flat screen TV	1683427518630	1683427518825	OK	 
+REQUEST		Add product to the cart - Product ID:Rabbit Model	1683427518771	1683427518961	OK	 
+REQUEST		Load Home page	1683427518830	1683427519018	OK	 
+REQUEST		Load products list page - Category: Babies Toys	1683427518825	1683427519199	OK	 
+REQUEST		Load products list page - Category: Kids Toys	1683427519011	1683427519381	OK	 
+REQUEST		Add product to the cart - Product ID:Fake Donuts	1683427519274	1683427519507	OK	 
+REQUEST		Load Home page	1683427519511	1683427519691	OK	 
+REQUEST		Load products list page - Category: Grown-ups Toys	1683427519292	1683427519701	OK	 
+REQUEST		Load products list page - Category: All Products	1683427519377	1683427519795	OK	 
+REQUEST		Add product to the cart - Product ID:Playing Cards	1683427520073	1683427520269	OK	 
+REQUEST		Load Home page	1683427520271	1683427520461	OK	 
+REQUEST		Load products list page - Category: Babies Toys	1683427520139	1683427520524	OK	 
+REQUEST		Load page 1 of products - Category : All Products	1683427520339	1683427520723	OK	 
+REQUEST		Load page 2 of products - Category : All Products	1683427520733	1683427520917	OK	 
+REQUEST		Login User	1683427520719	1683427520917	OK	 
+REQUEST		Login User Redirect 1	1683427520925	1683427521123	OK	 
+REQUEST		View Cart	1683427521128	1683427521328	OK	 
+REQUEST		Load page 1 of products - Category : All Products	1683427521564	1683427521962	OK	 
+REQUEST		Load products details page - Product : Poker Set	1683427521926	1683427522132	OK	 
+REQUEST		Load page 2 of products - Category : All Products	1683427521968	1683427522169	OK	 
+REQUEST		Load our story page	1683427522025	1683427522232	OK	 
+REQUEST		Load products list page - Category: Kids Toys	1683427522136	1683427522342	OK	 
+REQUEST		Load products details page - Product : VR Headset	1683427522183	1683427522383	OK	 
+REQUEST		Load products list page - Category: Grown-ups Toys	1683427522385	1683427522585	OK	 
+REQUEST		Load our story page	1683427522699	1683427522898	OK	 
+REQUEST		Increase product Quantity : Product Name : Rabbit Model	1683427523028	1683427523233	OK	 
+REQUEST		Increase product Quantity : Product Name : Rabbit Model Redirect 1	1683427523234	1683427523442	OK	 
+REQUEST		Load products details page - Product : Darts Board	1683427523315	1683427523515	OK	 
+REQUEST		Load products details page - Product : Train Toy	1683427523599	1683427523807	OK	 
+REQUEST		Load products list page - Category: All Products	1683427523469	1683427523865	OK	 
+REQUEST		Load products list page - Category: Babies Toys	1683427523517	1683427523914	OK	 
+REQUEST		Load products list page - Category: Kids Toys	1683427523811	1683427524223	OK	 
+REQUEST		Decrease product Quantity : Product Name : Rabbit Model	1683427524449	1683427524663	OK	 
+REQUEST		Decrease product Quantity : Product Name : Rabbit Model Redirect 1	1683427524665	1683427524872	OK	 
+REQUEST		Load Get in touch page	1683427524905	1683427525092	OK	 
+REQUEST		Load products details page - Product : Poker Set	1683427525041	1683427525231	OK	 
+REQUEST		Load products list page - Category: Grown-ups Toys	1683427525236	1683427525428	OK	 
+REQUEST		Load Get in touch page	1683427525341	1683427525521	OK	 
+REQUEST		Cart checkout	1683427525877	1683427526073	OK	 
+REQUEST		Load products details page - Product : Darts Board	1683427525961	1683427526147	OK	 
+REQUEST		Load products details page - Product : Furry Toys	1683427525977	1683427526164	OK	 
+REQUEST		Cart checkout Redirect 1	1683427526074	1683427526265	OK	 
+REQUEST		Load products list page - Category: Babies Toys	1683427526168	1683427526352	OK	 
+REQUEST		Load products details page - Product : Fake Donuts	1683427526207	1683427526391	OK	 
+REQUEST		Load products list page - Category: All Products	1683427526157	1683427526523	OK	 
+REQUEST		Load products list page - Category: Kids Toys	1683427526398	1683427526757	OK	 
+REQUEST		Load products details page - Product : Doctors Play Kit	1683427526781	1683427526965	OK	 
+REQUEST		Load products list page - Category: Grown-ups Toys	1683427527222	1683427527577	OK	 
+REQUEST		Load products list page - Category: All Products	1683427527595	1683427527975	OK	 
+REQUEST		Load products details page - Product : Scrabble Set	1683427528026	1683427528226	OK	 
+REQUEST		Load products list page - Category: Babies Toys	1683427528231	1683427528623	OK	 
+REQUEST		Load products details page - Product : Alphabet Letters	1683427528512	1683427528710	OK	 
+REQUEST		Load products details page - Product : Coloured Building Blocks	1683427528602	1683427528792	OK	 
+REQUEST		Load products list page - Category: Kids Toys	1683427528715	1683427528923	OK	 
+REQUEST		Load products list page - Category: Grown-ups Toys	1683427528796	1683427528997	OK	 
+REQUEST		Add product to the cart - Product ID:Doctors Play Kit	1683427529028	1683427529215	OK	 
+REQUEST		Load Home page	1683427529009	1683427529215	OK	 
+REQUEST		Load page 1 of products - Category : All Products	1683427529217	1683427529619	OK	 
+REQUEST		Load page 2 of products - Category : All Products	1683427529622	1683427529826	OK	 
+REQUEST		Load products details page - Product : Alphabet Letters	1683427530357	1683427530563	OK	 
+REQUEST		Load products list page - Category: All Products	1683427530565	1683427530959	OK	 
+REQUEST		Load products details page - Product : Hopscotch Kit	1683427531155	1683427531348	OK	 
+REQUEST		Load page 1 of products - Category : All Products	1683427530975	1683427531384	OK	 
+REQUEST		Load Home page	1683427531351	1683427531551	OK	 
+REQUEST		Load products details page - Product : Playing Cards	1683427531385	1683427531599	OK	 
+REQUEST		Load page 2 of products - Category : All Products	1683427531387	1683427531599	OK	 
+REQUEST		Login User	1683427531601	1683427531801	OK	 
+REQUEST		Load Home page	1683427531601	1683427531801	OK	 
+REQUEST		Login User Redirect 1	1683427531802	1683427531986	OK	 
+REQUEST		View Cart	1683427531988	1683427532171	OK	 
+REQUEST		Load products details page - Product : Xbox Controller	1683427532153	1683427532341	OK	 
+REQUEST		Load our story page	1683427532219	1683427532407	OK	 
+REQUEST		Load Home page	1683427532344	1683427532535	OK	 
+REQUEST		Load products details page - Product : Furry Toys	1683427532428	1683427532615	OK	 
+REQUEST		Load products list page - Category: Babies Toys	1683427532618	1683427532984	OK	 
+REQUEST		Load products details page - Product : Flat screen TV	1683427532800	1683427532988	OK	 
+REQUEST		Load products details page - Product : PS4 Controller	1683427532919	1683427533102	OK	 
+REQUEST		Load Home page	1683427532990	1683427533182	OK	 
+REQUEST		Load products details page - Product : Playing Cards	1683427533095	1683427533284	OK	 
+REQUEST		Load Home page	1683427533105	1683427533288	OK	 
+REQUEST		Load products list page - Category: Kids Toys	1683427533286	1683427533655	OK	 
+REQUEST		Load page 1 of products - Category : All Products	1683427533423	1683427533781	OK	 
+REQUEST		Load page 2 of products - Category : All Products	1683427533784	1683427534045	OK	 
+REQUEST		Load Get in touch page	1683427534315	1683427534507	OK	 
+REQUEST		Load our story page	1683427534555	1683427534736	OK	 
+REQUEST		Increase product Quantity : Product Name : Doctors Play Kit	1683427534711	1683427534899	OK	 
+REQUEST		Load products list page - Category: Grown-ups Toys	1683427534806	1683427535001	OK	 
+REQUEST		Increase product Quantity : Product Name : Doctors Play Kit Redirect 1	1683427534900	1683427535088	OK	 
+REQUEST		Load our story page	1683427535541	1683427535749	OK	 
+REQUEST		Load Get in touch page	1683427535760	1683427535962	OK	 
+REQUEST		Decrease product Quantity : Product Name : Doctors Play Kit	1683427536092	1683427536290	OK	 
+REQUEST		Load our story page	1683427536186	1683427536394	OK	 
+REQUEST		Load products details page - Product : Flat screen TV	1683427536197	1683427536395	OK	 
+REQUEST		Load products list page - Category: All Products	1683427536002	1683427536414	OK	 
+REQUEST		Load our story page	1683427536291	1683427536493	OK	 
+REQUEST		Decrease product Quantity : Product Name : Doctors Play Kit Redirect 1	1683427536291	1683427536493	OK	 
+REQUEST		Load products list page - Category: Babies Toys	1683427536398	1683427536600	OK	 
+REQUEST		Load products details page - Product : Assorted Building Blocks	1683427537437	1683427537648	OK	 
+REQUEST		Cart checkout	1683427537497	1683427537693	OK	 
+REQUEST		Load Get in touch page	1683427537554	1683427537762	OK	 
+REQUEST		Cart checkout Redirect 1	1683427537694	1683427537894	OK	 
+REQUEST		Load products details page - Product : Train Toy	1683427537688	1683427537894	OK	 
+REQUEST		Load Home page	1683427537898	1683427538104	OK	 
+REQUEST		Load products list page - Category: Kids Toys	1683427537916	1683427538298	OK	 
+REQUEST		Load Get in touch page	1683427538190	1683427538390	OK	 
+REQUEST		Load page 1 of products - Category : All Products	1683427538001	1683427538412	OK	 
+REQUEST		Load page 2 of products - Category : All Products	1683427538415	1683427538626	OK	 
+REQUEST		Load Get in touch page	1683427538456	1683427538665	OK	 
+REQUEST		Load products list page - Category: Grown-ups Toys	1683427538965	1683427539179	OK	 
+REQUEST		Load products details page - Product : PS4 Controller	1683427539384	1683427539577	OK	 
+REQUEST		Add product to the cart - Product ID:Assorted Building Blocks	1683427539495	1683427539678	OK	 
+REQUEST		Load Home page	1683427539678	1683427539864	OK	 
+REQUEST		Load products list page - Category: All Products	1683427539581	1683427539949	OK	 
+REQUEST		Load products list page - Category: Babies Toys	1683427539775	1683427540147	OK	 
+REQUEST		Load products list page - Category: Kids Toys	1683427540010	1683427540371	OK	 
+REQUEST		Load Home page	1683427540348	1683427540529	OK	 
+REQUEST		Load products details page - Product : Assorted Building Blocks	1683427540617	1683427540800	OK	 
+REQUEST		Load Home page	1683427540803	1683427541069	OK	 
+REQUEST		Load products details page - Product : Alphabet Letters	1683427541057	1683427541280	OK	 
+USER	Default Load test	END	1683427541290
+REQUEST		Load our story page	1683427541108	1683427541292	OK	 
+USER	Default Load test	END	1683427541296
+USER	Default Load test	END	1683427541582
+USER	Default Load test	END	1683427542474
+USER	Default Load test	END	1683427542477
+USER	Default Load test	END	1683427542869
+USER	Default Load test	END	1683427542931
+USER	Default Load test	END	1683427543183
+USER	Default Load test	END	1683427543537
+USER	Default Load test	END	1683427544075

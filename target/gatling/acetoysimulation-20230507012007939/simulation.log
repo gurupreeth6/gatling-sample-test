@@ -1,0 +1,23 @@
+RUN	acetoys.AcetoySimulation	acetoysimulation	1683422407939	 	3.9.3
+USER	AcetoySimulation	START	1683422409957
+REQUEST		Load Home page	1683422409956	1683422410647	OK	 
+REQUEST		Load our story page	1683422412730	1683422412974	OK	 
+REQUEST		Load Get in touch page	1683422414981	1683422415189	OK	 
+REQUEST		Load products list page - Category: All Products	1683422417207	1683422417694	OK	 
+REQUEST		Load page 1 of products - Category : All Products	1683422419729	1683422420155	OK	 
+REQUEST		Load page 2 of products - Category : All Products	1683422420164	1683422420360	OK	 
+REQUEST		Load products details page - Product : Fake Donuts	1683422422368	1683422422733	OK	 
+REQUEST		Add product to the cart - Product ID:Fake Donuts	1683422424746	1683422424953	OK	 
+REQUEST		Load products list page - Category: Babies Toys	1683422426959	1683422427351	OK	 
+REQUEST		Add product to the cart - Product ID:Fake Donuts	1683422429360	1683422429557	OK	 
+REQUEST		Add product to the cart - Product ID:Fake Donuts	1683422431562	1683422431775	OK	 
+REQUEST		Login User	1683422433791	1683422434111	OK	 
+REQUEST		Login User Redirect 1	1683422434120	1683422434322	OK	 
+REQUEST		View Cart	1683422434328	1683422434526	OK	 
+REQUEST		Increase product Quantity : Product Id : 19	1683422436537	1683422436740	OK	 
+REQUEST		Increase product Quantity : Product Id : 19 Redirect 1	1683422436742	1683422436941	OK	 
+REQUEST		Decrease product Quantity : Product Id : 19	1683422438948	1683422439152	OK	 
+REQUEST		Decrease product Quantity : Product Id : 19 Redirect 1	1683422439154	1683422439353	OK	 
+REQUEST		Cart checkout	1683422441360	1683422441564	OK	 
+REQUEST		Cart checkout Redirect 1	1683422441565	1683422441772	OK	 
+USER	AcetoySimulation	END	1683422443779

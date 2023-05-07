@@ -1,0 +1,25 @@
+RUN	acetoys.AcetoySimulation	acetoysimulation	1683337465561	test	3.9.3
+USER	AcetoySimulation	START	1683337467712
+REQUEST		Load Home page	1683337467711	1683337468660	OK	 
+REQUEST		Load our story page	1683337470741	1683337471116	OK	 
+REQUEST		Load Get in touch page	1683337473128	1683337473424	OK	 
+REQUEST		Load products list page - Category: All Products	1683337475443	1683337476111	OK	 
+REQUEST		Load Second page of products	1683337478132	1683337478915	OK	 
+REQUEST		Load next page of products - Page 2	1683337480928	1683337481352	OK	 
+REQUEST		Load products details page - Product : Playing Cards	1683337483361	1683337483680	OK	 
+REQUEST		Add product to the cart - Product ID:Playing Cards	1683337485689	1683337486063	OK	 
+REQUEST		Load products list page - Category: Babies Toys	1683337488068	1683337488707	OK	 
+REQUEST		Add product to the cart - Product ID:Playing Cards	1683337490716	1683337491012	OK	 
+REQUEST		Add product to the cart - Product ID:Playing Cards	1683337493016	1683337493435	OK	 
+REQUEST		Login User	1683337495447	1683337495739	OK	 
+REQUEST		Login User Redirect 1	1683337495747	1683337496098	OK	 
+REQUEST		View Cart	1683337496104	1683337496508	OK	 
+REQUEST		Increase product Quantity : Product Id : 19	1683337498516	1683337498862	OK	 
+REQUEST		Increase product Quantity : Product Id : 19 Redirect 1	1683337498863	1683337499158	OK	 
+REQUEST		Decrease product Quantity : Product Id : 19	1683337501164	1683337501526	OK	 
+REQUEST		Decrease product Quantity : Product Id : 19 Redirect 1	1683337501527	1683337501934	OK	 
+REQUEST		Login User	1683337503938	1683337504231	KO	status.find.in([200, 209], 304), found 405
+REQUEST		View Cart	1683337504237	1683337504530	OK	 
+REQUEST		Cart checkout	1683337506536	1683337506951	OK	 
+REQUEST		Cart checkout Redirect 1	1683337506951	1683337507363	OK	 
+USER	AcetoySimulation	END	1683337509376

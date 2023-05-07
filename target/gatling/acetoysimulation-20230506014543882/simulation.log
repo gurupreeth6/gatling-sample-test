@@ -1,0 +1,25 @@
+RUN	acetoys.AcetoySimulation	acetoysimulation	1683337543882	 	3.9.3
+USER	AcetoySimulation	START	1683337545485
+REQUEST		Load Home page	1683337545484	1683337546455	OK	 
+REQUEST		Load our story page	1683337548539	1683337548830	OK	 
+REQUEST		Load Get in touch page	1683337550846	1683337551138	OK	 
+REQUEST		Load products list page - Category: All Products	1683337553156	1683337553699	OK	 
+REQUEST		Load Second page of products	1683337555722	1683337556287	OK	 
+REQUEST		Load next page of products - Page 2	1683337558302	1683337558650	OK	 
+REQUEST		Load products details page - Product : Xbox Controller	1683337560663	1683337560970	OK	 
+REQUEST		Add product to the cart - Product ID:Xbox Controller	1683337562978	1683337563373	OK	 
+REQUEST		Load products list page - Category: Babies Toys	1683337565378	1683337566027	OK	 
+REQUEST		Add product to the cart - Product ID:Xbox Controller	1683337568036	1683337568391	OK	 
+REQUEST		Add product to the cart - Product ID:Xbox Controller	1683337570396	1683337570736	OK	 
+REQUEST		Login User	1683337572749	1683337573043	OK	 
+REQUEST		Login User Redirect 1	1683337573051	1683337573416	OK	 
+REQUEST		View Cart	1683337573423	1683337573819	OK	 
+REQUEST		Increase product Quantity : Product Id : 19	1683337575827	1683337576173	OK	 
+REQUEST		Increase product Quantity : Product Id : 19 Redirect 1	1683337576174	1683337576584	OK	 
+REQUEST		Decrease product Quantity : Product Id : 19	1683337578594	1683337578870	OK	 
+REQUEST		Decrease product Quantity : Product Id : 19 Redirect 1	1683337578871	1683337579154	OK	 
+REQUEST		Login User	1683337581160	1683337581514	KO	status.find.in([200, 209], 304), found 405
+REQUEST		View Cart	1683337581520	1683337581813	OK	 
+REQUEST		Cart checkout	1683337583822	1683337584141	OK	 
+REQUEST		Cart checkout Redirect 1	1683337584142	1683337584420	OK	 
+USER	AcetoySimulation	END	1683337586428

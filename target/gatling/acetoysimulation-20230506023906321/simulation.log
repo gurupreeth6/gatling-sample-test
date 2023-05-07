@@ -1,0 +1,23 @@
+RUN	acetoys.AcetoySimulation	acetoysimulation	1683340746321	 	3.9.3
+USER	AcetoySimulation	START	1683340747817
+REQUEST		Load Home page	1683340747816	1683340748841	OK	 
+REQUEST		Load our story page	1683340750948	1683340751302	OK	 
+REQUEST		Load Get in touch page	1683340753315	1683340753646	OK	 
+REQUEST		Load products list page - Category: Kids Toys	1683340755664	1683340756072	OK	 
+REQUEST		Load products details page - Product : Hopscotch Kit	1683340760100	1683340760476	OK	 
+REQUEST		Add product to the cart - Product ID:Hopscotch Kit	1683340762486	1683340762837	OK	 
+REQUEST		Load products list page - Category: All Products	1683340764842	1683340765494	OK	 
+REQUEST		Add product to the cart - Product ID:Hopscotch Kit	1683340767505	1683340767795	OK	 
+REQUEST		Add product to the cart - Product ID:Hopscotch Kit	1683340769800	1683340770092	OK	 
+REQUEST		Login User	1683340772106	1683340772465	OK	 
+REQUEST		Login User Redirect 1	1683340772470	1683340772875	OK	 
+REQUEST		View Cart	1683340772880	1683340773171	OK	 
+REQUEST		Increase product Quantity : Product Id : 19	1683340775180	1683340775477	OK	 
+REQUEST		Increase product Quantity : Product Id : 19 Redirect 1	1683340775479	1683340775792	OK	 
+REQUEST		Decrease product Quantity : Product Id : 19	1683340777800	1683340778081	OK	 
+REQUEST		Decrease product Quantity : Product Id : 19 Redirect 1	1683340778082	1683340778395	OK	 
+REQUEST		Login User	1683340780403	1683340780723	KO	status.find.in([200, 209], 304), found 405
+REQUEST		View Cart	1683340780728	1683340781067	OK	 
+REQUEST		Cart checkout	1683340783074	1683340783404	OK	 
+REQUEST		Cart checkout Redirect 1	1683340783405	1683340783740	OK	 
+USER	AcetoySimulation	END	1683340785752
