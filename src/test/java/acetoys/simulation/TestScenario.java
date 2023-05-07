@@ -1,18 +1,15 @@
 package acetoys.simulation;
 
-import io.gatling.javaapi.core.ChainBuilder;
 import io.gatling.javaapi.core.Choice;
 import io.gatling.javaapi.core.ScenarioBuilder;
-import org.checkerframework.checker.units.qual.C;
 
 import java.time.Duration;
 
 import static io.gatling.javaapi.core.CoreDsl.*;
-import static io.gatling.javaapi.http.HttpDsl.*;
 
 public class TestScenario {
 
-    private static final Duration TEST_DURATION = Duration.ofSeconds(Integer.parseInt(System.getProperty("DURATION","60")));
+    private static final Duration TEST_DURATION = Duration.ofSeconds(Integer.parseInt(System.getenv("DURATION")));
     public static ScenarioBuilder defaultLoadTest =
             scenario("Default Load test")
                     .during(TEST_DURATION)
